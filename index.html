@@ -14,16 +14,44 @@
 </head>
 
 <body>
-    <section id="presentacion">
-        <hgroup>
-            <p id="cruz">&#10013;</p>
-            <p id="marca">Con eso no se jode.</p>
-            <p id="presenta">presenta</p>
-            <img id="logo" src="logo.png" alt="MORBOPOLY logo">
-            <p id="titulo">MORBOPOLY</p>
-            <p id="subtitulo">El juego de tu vida de mierda.</p>
-        </hgroup>
+    <section id="principal">
+        <section id="presentacion">
+            <hgroup>
+                <p id="cruz">&#10013;</p>
+                <p id="marca">Con eso no se jode.</p>
+                <p id="presenta">presenta</p>
+                <img id="logo" src="logo.png" alt="MORBOPOLY logo">
+                <p id="titulo">MORBOPOLY</p>
+                <p id="subtitulo">El juego de tu vida de mierda.</p>
+            </hgroup>
+        </section>
+        <section id="botones">
+            <a href="#reglas"><article class="boton" id="btn-reglas">
+               <span>Reglas</span>
+            </article></a>
+            <article class="boton" id="btn-jugar">
+                <span>Jugar</span>
+            </article>
+        </section>
     </section>
+
+    <section id="reglas">
+        <h1>REGLAMENTO</h1>
+        <article id="objetivo">
+            <h2>¿Cuál es el objetivo del juego?</h2>
+            <p>El objeivo del juego es lograr una vida lo más miserable (es decir, parecida a su vida real-posible). Para eso deben atravesar todo el tablero recolectando Cupones de Angustia, Enfermedad, Tragedia, etc.</p>
+        </article>
+        <article id="como">
+            <h2>¿Cómo se juega?</h2>
+            <p>Antes de empezar, todos los jugadores toman un cupón de cada tipo y una pieza de Infeliz que es la que los representará durante el juego. Luego, cada participante tira un dado y avanza esa cantidad de casilleros.</p>
+            <p>Cada casillero tiene instrucciones claras para que hasta ustedes puedan comprenderlas.</p>
+            <ul>
+                <li>En caso de que el casillero les diga de avanzar o retroceder, deben cumplir la consigna del último casillero en el que aterricen.</li>
+                <li>Si un jugador cae en un casillero ocupado por otro jugador, el que ya estaba puede robarle un cupón a elección al recién llegado para hacerle pagar derecho de piso. Así es la vida, no la inventamos nosotros.</li>
+            </ul>
+        </article>
+    </section>
+    <iframe src="reglas.html" frameborder="0"></iframe>
 </body>
 
 </html>
