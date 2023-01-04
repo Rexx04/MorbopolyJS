@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#presentacion {
+    background-color: bisque;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentacion>* {
+    text-align: center;
+    font-family: Times;
+}
+
+#presentacion #cruz {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#presentacion #marca {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#presentacion #presenta {
+    font-family: Garamond;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem
+}
+
+#presentacion #logo {
+    height: 12rem;
+    mix-blend-mode: darken;
+}
+
+#presentacion #titulo {
+    font-size: 6rem;
+    letter-spacing: 0.8rem;
+
+    border: 0.7rem black solid;
+    padding: 1.5rem 5rem;
+    border-radius: 6rem;
+
+    margin-top: -0.4rem;
+}
+
+#presentacion #subtitulo {
+    margin: -1.8rem auto 0;
+    width: 30rem;
+    background-color: black;
+    color: white;
+
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+
+    border: 0.3rem black solid;
+    border-radius: 6rem;
+}
