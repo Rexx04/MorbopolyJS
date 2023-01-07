@@ -20,13 +20,6 @@
     --tipo-secundaria: Garamond, Helvetica, serif;
 }
 
-/* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-secundario: #ececec;
-    }
-}
-
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
