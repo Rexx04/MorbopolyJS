@@ -12,14 +12,14 @@
     font-weight: 700;
     font-size: 3rem;
 
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .texto--secundario {
     font-family: var(--tipo-secundaria);
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .contenedor--pantallaCompleta {
@@ -77,7 +77,7 @@
 }
 
 .contenedor--botones {
-    margin-top: 5rem;
+    margin-top: 3rem;
 
     display: flex;
     justify-content: center;
