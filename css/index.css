@@ -7,6 +7,10 @@
     --tipo-secundaria: Garamond, Helvetica, serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .texto--primario {
     font-family: var(--tipo-principal);
     font-weight: 700;
@@ -29,7 +33,6 @@
     background-size: cover;
     color: var(--color-primario);
 
-    width: 100vw;
     height: 100vh;
 
     display: grid;
@@ -109,10 +112,10 @@
     background-color: var(--color-primario);
 }
 
-footer {
+/* footer {
     position: fixed;
     bottom: 10px;
     width: 100vw;
 
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
